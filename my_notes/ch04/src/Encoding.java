@@ -1,4 +1,4 @@
-package ch04;
+package ch04.src;
 
 import javax.swing.JFrame;
 import javax.swing.JLabel;
@@ -9,6 +9,7 @@ public class Encoding {
         System.out.println("\uD83D\uDE00");
         System.out.println("\uD83D\uDCAF");
         System.out.println("\uD83C\uDF35");
+        System.out.println("\u2200");
 
         String mess = "\uD83D\uDE00";
 

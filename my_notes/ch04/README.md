@@ -8,17 +8,55 @@ chapter 4
 - The Java `char` type and `String` class natively support Unicode values.
 - [Encoding.java](./Encoding.java)
 
-## variables and contants
+## comments
+
+### `javadoc` comments
+
+```
+javadoc -d docs src/*
+```
+
+## variables and constants
 
 
 ## types
 
->The type system of a programming language describes how its data elements are associated with storage in memory and how they are related to one another.
+>The *type system* of a programming language describes how its data elements are associated with storage in memory and how they are related to one another.
+
+statically typed
+dynamically typed
+
+>Java combines any of the best features of both statically and dynamically typed languages. ... Java also maintains runtime information about objects and uses this to allow truly dynamic behavior. 
+
+*casting* converting between types
+
+*polymorphism* combining features from multiple types
+
+- two categories of data types in Java:
+  - *primitive types*
+  - *reference types*
 
 >**Generics** are reference types that refine an existing type while still providing compile-time type safety.
 
 - [Types.java](./Types.java)
 
-# integer literals
+## primitive types
 
-- [IntLit.java](./IntLit.java)
+- primitive types are precisely defined for portability
+
+## floating-point precision
+
+## variables declaration and initialization
+
+## integer literals
+
+- [IntLit.java](./src/IntLit.java)
+
+## floating-point literals
+
+- double is more precises than float
+
+## character literals
+
+- [CharLit.java](./src/CharLit.java)
+
